@@ -1,0 +1,65 @@
+.container{
+    margin-top: 100px;
+    display: grid;
+    grid-template-areas: "player pc"
+                        "plScore pcScore"
+                        "button button";
+    grid-template-columns: minmax(150px, 20%) minmax(150px, 20%);
+    grid-template-rows: 100px 100px auto;
+    justify-content: center;
+    
+}
+
+.block{
+    font-size: 0.8rem;
+    grid-gap: 5px;
+    border: 1px solid black;
+    text-align: center;
+}
+.block_1{
+    grid-area: player;
+    text-align: left;
+    padding: 5px;
+}
+.block_2{
+    grid-area: pc;
+    text-align: left;
+    padding: 5px;
+}
+.block_3{
+    grid-area: plScore;
+    padding-top: 30px;
+}
+.block_4{
+    grid-area: pcScore;
+    padding-top: 30px;
+}
+.block_5{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding-top: 5px;
+    grid-area: button;
+    justify-items: space-around;
+}
+
+.btn{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#minmax{
+    margin-top: 5px;
+    width: 150px;
+    height: 40px;
+}
+
+#pSize{
+    font-size: 1rem;
+}
+
+#footer{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px 10px 10px;
+}
