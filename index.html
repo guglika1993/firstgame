@@ -13,25 +13,27 @@
     <div class="container" class="text-wrap">
         <div class="block block_1">
 
-        <p id="shen">შენ/у тебя: <span id="plScore"></span></p>   
+        <p id="shen">შენ:</p><p id="plScore"></p>
 
         </div>
         <div class="block block_2">
 
-        <p id="pc">კომპიუტერი/у ПК: <span id="pcScore"></span></p>
+        <p id="pc">ბოტი:</p><p id="pcScore"></p>
 
         </div>
         <div class="block block_3">    
-            <span id="qula">0</span>
+            <span id="qula" style="font-size: 2rem;">0</span>
         </div>
         <div class="block block_4">
-            <span id="qula2">0</span>
+            <span id="qula2" style="font-size: 2rem;">0</span>
         </div>
         <div class="block block_5">
+
         <button id="qva" class="btn btn-success">ქვა</button>
         <button id="makrateli" class="btn btn-success">მაკრატელი</button>
         <button id="bade" class="btn btn-success">ბადე</button>
-        <button id="reset" class="btn btn-success">Reset</button>
+        <button id="reset" class="btn btn-success">აღდგენა</button>
+
         <select class="form-select" name="max" id="minmax">
             <option value="1">1</option>
             <option value="2">2</option>
@@ -46,7 +48,9 @@
         </select>
 
         <div id="footer">
-            <p id="pSize"> შედეგი/Результат: <span id="shedegi"></span></p>
+            <div id="par" style="display:flex; justify-content: center;">
+                <p id="pSize">შედეგი:</p><p id="shedegi" style="font-size: 1rem; margin-left: 10px;"></p>
+            </div>
             <div id="langButtons">
                 <button id="translateRU" class="btn btn-primary">Русская версия</button>
                 <button id="translateGE" class="btn btn-danger">ქართული ვერსია</button>
